@@ -1,0 +1,17 @@
+docker build -t my-node-app .
+docker run -p 3000:3000 my-node-app
+
+or 
+
+docker run -d -p 3000:3000  --name my-node-app my-node-app
+
+enter console
+docker run -ti --rm my-node-app sh
+
+
+docker rmi my-node-app
+
+docker stop my-node-app
+docker rm my-node-app
+docker rmi my-node-app
+
