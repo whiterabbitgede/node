@@ -75,9 +75,10 @@ Install local dependencies:
 
 ```bash
 
+pnpm install
+
 npm install
 
-pnpm install
 
 
 # on create new
@@ -94,11 +95,11 @@ node server.js
 
 # or 
 
-npm start
+pnpm start
 
 # or 
 
-pnpm start
+npm start
 
 
 # listening at localhost:3000
